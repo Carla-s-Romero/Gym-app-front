@@ -17,7 +17,7 @@
                       v-img.mr-2(:src="mistake.image" max-height="70" max-width="70" contain)
                       div.title-container.pl-2
                         .normal-text.font-weight-black.text-h6 {{ mistake.title.normal }}
-                        .highlight-text.red--text.text--darken-4.font-weight-black {{ mistake.title.highlight }}
+                        .highlight-text.red--text.text--darken-5.font-weight-black {{ mistake.title.highlight }}
 
                 v-col(cols="12")
                   v-card-text
@@ -73,7 +73,7 @@ export default {
 <style scoped>
 
 .number-circle {
-  background-color: #8b0000;
+  background-color: #810D0D;
   color: white;
   width: 60px;
   height: 60px;
@@ -88,7 +88,7 @@ export default {
 }
 
 .v-card-border {
-  border: 2px solid #FF0000;
+  border: 2px solid #810D0D;
 }
 
 @keyframes slideUp {
