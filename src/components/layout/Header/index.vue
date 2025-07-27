@@ -23,7 +23,7 @@ export default {
 .banner-container {
     width: 100%;
     height: 90vh;
-    background-image: url('@/assets/img/banner-principal.png');
+    background-image: url('@/assets/images/banner-principal.png');
     background-size: cover;
     background-position: center;
 }
