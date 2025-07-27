@@ -11,9 +11,9 @@
             | Treinar musculação não é apenas sobre ficar mais forte ou ter músculos maiores. É sobre melhorar sua vida em muitas maneiras diferentes.
 
           .text-body-1.font-weight-bold Quando você melhora a sua forma física, você melhora a sua:
-          
-          v-container.pa-0.mt-2
-            BenefitList
+
+          v-container.mt-2
+            BenefitList(:benefits="benefits")
 </template>
 
 <script>
@@ -27,6 +27,28 @@ export default {
   },
 
   data: () => ({
+    benefits: [
+        {
+          title: 'Saúde Mental - ',
+          description: 'A musculação reduz o estresse, combate a ansiedade e melhora o humor. Ela libera endorfinas, os hormônios do bem-estar, fazendo você se sentir mais disposto e positivo no dia a dia.'
+        },
+        {
+          title: 'Saúde do Corpo - ',
+          description: 'Treinar regularmente melhora a circulação, reduz o risco de doenças como diabetes, colesterol alto, hipertensão e fortalece ossos e articulações.'
+        },
+        {
+          title: 'Composição Corporal - ',
+          description: 'Você queima gordura, ganha massa magra e acelera seu metabolismo. O resultado? Um corpo mais forte, definido e funcional.'
+        },
+        {
+          title: 'Postura e Mobilidade - ',
+          description: 'A musculação corrige desequilíbrios, melhora o alinhamento do corpo e te dá mais mobilidade para atividades simples como sentar, correr ou até subir escadas.'
+        },
+        {
+          title: 'Confiança e Autoestima - ',
+          description: 'A evolução nos treinos fortalece sua disciplina e sua autoestima. Cada conquista por menor que pareça reforça a certeza de que você é capaz de ir além.'
+        }
+      ]
   }),
 };
 </script>

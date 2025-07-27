@@ -11,12 +11,16 @@ v-row
 
   v-container
     MuscleBenefitsSection
+
+  v-container
+    hypertrophyCare
 </template>
 <script>
 import Header from '../components/layout/Header/index.vue'
 import TrainingBenefits from '../components/layout/TrainingBenefits.vue'
 import MuscleBenefitsSection from '../components/layout/MuscleBenefitsSection.vue'
 import BenefitsIntro from '../components/layout/BenefitsIntro.vue'
+import hypertrophyCare from '../components/layout/hypertrophyCare.vue'
 
 export default {
     name: 'HomeView',
@@ -25,7 +29,8 @@ export default {
       Header,
       TrainingBenefits,
       MuscleBenefitsSection,
-      BenefitsIntro
+      BenefitsIntro,
+      hypertrophyCare
     },
 
     data: () => ({
