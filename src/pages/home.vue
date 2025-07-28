@@ -20,6 +20,8 @@ v-row
 
   v-container(style="margin-top: 6rem;")
     TrainingAssemblyTips
+
+  Footer
 </template>
 <script>
 import Header from '../components/layout/Header/index.vue'
@@ -29,6 +31,7 @@ import BenefitsIntro from '../components/layout/BenefitsIntro.vue'
 import hypertrophyCare from '../components/layout/hypertrophyCare.vue'
 import AcademyMap from '../components/layout/AcademyMap.vue'
 import TrainingAssemblyTips from '../components/layout/TrainingAssemblyTips.vue'
+import Footer from '../components/layout/Footer/index.vue'
 
 export default {
     name: 'HomeView',
@@ -40,7 +43,8 @@ export default {
       BenefitsIntro,
       hypertrophyCare,
       AcademyMap,
-      TrainingAssemblyTips
+      TrainingAssemblyTips,
+      Footer
     },
 
     data: () => ({
