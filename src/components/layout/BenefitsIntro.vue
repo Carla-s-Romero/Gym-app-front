@@ -1,7 +1,7 @@
 <template lang="pug">
 v-row
   v-col(cols="12")
-    section.ma-auto.px-12.py-6
+    section#what-is.ma-auto.px-12.py-6
       .text-h4.font-weight-black O que é musculação?
       .red-line.mt-2.mb-4
       .text-body-1

@@ -1,5 +1,5 @@
 <template lang="pug">
-  v-row
+  v-row#avoid-errors
     v-col.mt-12.px-6(cols="12")
       .text-h4.font-weight-black Como garantir a hipertrofia e quais erros podem ser evitados?
       .red-line.mt-2.mb-4

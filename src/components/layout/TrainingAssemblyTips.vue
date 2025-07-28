@@ -1,5 +1,5 @@
 <template lang="pug">
-v-row
+v-row#training-tips
   v-col(cols="12")
       .text-h4.font-weight-black.mb-4 Quais são os principais benefícios da Musculação?
       .red-line.mt-2.mb-4
