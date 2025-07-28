@@ -17,6 +17,9 @@ v-row
 
   v-container(style="margin-top: 4rem;")
     AcademyMap
+
+  v-container(style="margin-top: 6rem;")
+    TrainingAssemblyTips
 </template>
 <script>
 import Header from '../components/layout/Header/index.vue'
@@ -25,6 +28,7 @@ import MuscleBenefitsSection from '../components/layout/MuscleBenefitsSection.vu
 import BenefitsIntro from '../components/layout/BenefitsIntro.vue'
 import hypertrophyCare from '../components/layout/hypertrophyCare.vue'
 import AcademyMap from '../components/layout/AcademyMap.vue'
+import TrainingAssemblyTips from '../components/layout/TrainingAssemblyTips.vue'
 
 export default {
     name: 'HomeView',
@@ -35,7 +39,8 @@ export default {
       MuscleBenefitsSection,
       BenefitsIntro,
       hypertrophyCare,
-      AcademyMap
+      AcademyMap,
+      TrainingAssemblyTips
     },
 
     data: () => ({
