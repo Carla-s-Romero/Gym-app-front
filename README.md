@@ -94,6 +94,10 @@ site-musculacao/
 
 Este projeto foi desenvolvido como parte do curso de desenvolvimento web, utilizando Vue.js com Vuetify para criar uma interface moderna e responsiva.
 
+## 🌐 Acesse a versão online do projeto
+Você pode visualizar o site sem precisar rodar localmente:
+[🔗 strongests.netlify.app](https://strongests.netlify.app/)
+
 ---
 
 <div align="center">
