@@ -62,8 +62,6 @@ Para executar este projeto localmente, siga estes passos:
    npm run serve
    ```
 
-4. Acesse o site em `http://localhost:8080`
-
 ## 🔍 Como Usar
 
 O site oferece uma experiência de navegação fluida:
